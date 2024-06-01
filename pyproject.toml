@@ -1,0 +1,25 @@
+[tool.black]
+line-length = 79
+
+[tool.poetry]
+name = "ice-breaker"
+version = "0.1.0"
+description = ""
+authors = ["aj"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.1"
+langchain-community = "^0.2.1"
+openai = "^1.30.5"
+langchain-openai = "^0.1.8"
+langchainhub = "^0.1.17"
+tavily-python = "^0.3.3"
+ollama = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
